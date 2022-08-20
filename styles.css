@@ -11,10 +11,10 @@ body{
 /*Selected input should get its own box border color, use :focus */
 /*Check for weird changes when browser is resized */
 #displayColumn{
-    width: 400px;
+    width: 500px;
 }
 img{
-    width: 400px;
+    width: 500px;
 }
 #infoColumn{
     display: flex;
@@ -31,6 +31,10 @@ img{
     background-color: whitesmoke;
     margin: 0px;
     padding: 100px;
+}
+form {
+    display: flex;
+    flex-direction: row;
 }
 #footer{
     background-color: lightgrey;
