@@ -12,6 +12,7 @@ body{
 /*Selected input should get its own box border color, use :focus */
 /*Check for weird changes when browser is resized */
 #displayColumn{
+    margin-top: 20px;
     width: 500px;
 }
 img{
@@ -20,7 +21,7 @@ img{
 #infoColumn{
     display: flex;
     flex-direction: column;
-    width: 800px;
+    width: 1200px;
 }
 #header{
     background-color: lightgrey;
@@ -36,6 +37,9 @@ img{
 form {
     display: flex;
     flex-direction: row;
+}
+li {
+    list-style: none;
 }
 #footer{
     background-color: lightgrey;
