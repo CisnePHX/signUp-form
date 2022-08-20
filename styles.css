@@ -1,7 +1,12 @@
 body{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
 /* Need a font and image for the page logo*/
+/*Area behind the logo needs to be dark and transparent to enhance the logo's readability*/
+/*Create account should be blue-toned, maybe pink text*/
+/*password input boxes should be given an error class*/
+/*Selected input should get its own box border color, use :focus */
+/*Check for weird changes when browser is resized */
