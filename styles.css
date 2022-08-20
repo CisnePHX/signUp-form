@@ -2,7 +2,7 @@ body{
     display: flex;
     flex-direction: row;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
+    background-color: black;
 }
 /* Need a font and image for the page logo*/
 /*Area behind the logo needs to be dark and transparent to enhance the logo's readability*/
@@ -10,3 +10,30 @@ body{
 /*password input boxes should be given an error class*/
 /*Selected input should get its own box border color, use :focus */
 /*Check for weird changes when browser is resized */
+#displayColumn{
+    width: 400px;
+}
+img{
+    width: 400px;
+}
+#infoColumn{
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+}
+#header{
+    background-color: lightgrey;
+    margin-top: 20px;
+    padding-top: 200px;
+    padding: 100px;
+}
+#inputSection{
+    background-color: whitesmoke;
+    margin: 0px;
+    padding: 100px;
+}
+#footer{
+    background-color: lightgrey;
+    margin: 0px;
+    padding: 100px;
+}

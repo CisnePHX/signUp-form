@@ -9,14 +9,28 @@
 </head>
 <body>
     <div id="displayColumn">
-        <img src="microcosm.jpg">
+        <img src="microcosm.jpg"></img>
     </div>
     <div id="infoColumn">
         <div id="header">
-
+            <p>This is not a real online service! Hopefully it's a future implementation.</p>
+            <p>Registering o help the planet would be a nice idea.</p>
         </div>
         <div id="inputSection">
-
+            <form action="http://fake.org/input.html" method="post">
+                <label for="firstName">First Name: </label>
+                <input type="text" id="firstName">
+                <label for="lastName">Last Name: </label>
+                <input type="text" id="lastName">
+                <label for="email">Email: </label>
+                <input tyoe="email" id="email">
+                <label for="phone">Phone: </label>
+                <input type="tel" id="phone">
+                <label for="pw">Password: </label>
+                <input type="password" id="pw">
+                <label for="confirmPW">Confirm Password: </label>
+                <input type="password" id="confirmPW">
+            </form>
         </div>
         <div id="footer">
             <button>Create Account</button>
