@@ -22,11 +22,13 @@ body{
 #overlay{
     display: flex;
     color: #FEC790;
+    background-color: rgba(0, 0, 0, .3);
     font-size: 50px;
     position: relative;
     justify-content:center;
     align-items: center;
-    padding: 20px;
+    padding: 0px;
+    margin-top: 30px;
 }
 .aperture{
     width: 30px;
