@@ -15,8 +15,15 @@ body{
     margin-top: 20px;
     width: 500px;
 }
-img{
+#overlay{
+    color: #FEC790;
+    font-size: 50px;
+}
+#backImage{
     width: 500px;
+}
+.aperture{
+    width: 30px;
 }
 #infoColumn{
     display: flex;
