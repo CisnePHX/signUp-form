@@ -68,6 +68,10 @@ input {
     padding: 50px;
     position: relative;
 }
+button {
+    border-radius: 6px;
+    font-size: 24px;
+}
 a {
     color: teal;
     font-weight: bolder;
