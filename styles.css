@@ -2,7 +2,7 @@ body{
     display: flex;
     flex-direction: row;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 20px;
+    font-size: 24px;
     background-color: black;
 }
 /* Need a font and image for the page logo*/
@@ -23,7 +23,7 @@ body{
     display: flex;
     color: #FEC790;
     background-color: rgba(0, 0, 0, .3);
-    font-size: 50px;
+    font-size: 60px;
     position: relative;
     justify-content:center;
     align-items: center;
@@ -57,6 +57,10 @@ form {
 }
 li {
     list-style: none;
+}
+input {
+    border-radius: 6px;
+    font-size: 24px;
 }
 #footer{
     background-color: lightgrey;
