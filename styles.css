@@ -13,10 +13,10 @@ body{
 /*Check for weird changes when browser is resized */
 #displayColumn{
     margin-top: 20px;
-    width: 500px;
+    width: 550px;
 }
 #backImage{
-    width: 500px;
+    width: 550px;
     position: absolute;
 }
 #overlay{
@@ -41,14 +41,15 @@ body{
 #header{
     background-color: lightgrey;
     margin-top: 20px;
-    padding-top: 200px;
-    padding: 80px;
+    padding-top: 150px;
+    padding: 30px;
     position: relative;
 }
 #inputSection{
     background-color: whitesmoke;
     margin: 0px;
-    padding: 50px;
+    padding: 30px;
+    padding-left: 200px;
     position: relative;
 }
 form {
@@ -73,7 +74,7 @@ input:focus:valid{
 #footer{
     background-color: lightgrey;
     margin: 0px;
-    padding: 50px;
+    padding: 35px;
     position: relative;
 }
 button {
