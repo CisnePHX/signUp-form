@@ -62,6 +62,8 @@ li {
 input {
     border-radius: 6px;
     font-size: 24px;
+    margin-bottom: 10px;
+    margin-top: 5px;
 }
 input:invalid {
     border: none;
@@ -69,7 +71,8 @@ input:invalid {
 }
 input:focus:valid{
     border: none;
-    outline: 3px solid lightblue;
+    outline: 3px solid #05C4E3;
+    box-shadow: 5px 5px grey;
 }
 #footer{
     background-color: #E7E6E5;
@@ -81,6 +84,7 @@ button {
     border-radius: 6px;
     font-size: 24px;
     background-color: #F9EBD5;
+    text-shadow: 1px 1px grey;
 }
 a {
     color: teal;
