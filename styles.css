@@ -39,7 +39,7 @@ body{
     width: 1200px;
 }
 #header{
-    background-color: lightgrey;
+    background-color: #E7E6E5;
     margin-top: 20px;
     padding-top: 150px;
     padding: 30px;
@@ -72,7 +72,7 @@ input:focus:valid{
     outline: 3px solid lightblue;
 }
 #footer{
-    background-color: lightgrey;
+    background-color: #E7E6E5;
     margin: 0px;
     padding: 35px;
     position: relative;
@@ -80,6 +80,7 @@ input:focus:valid{
 button {
     border-radius: 6px;
     font-size: 24px;
+    background-color: #F9EBD5;
 }
 a {
     color: teal;
