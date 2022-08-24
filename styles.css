@@ -62,8 +62,13 @@ input {
     border-radius: 6px;
     font-size: 24px;
 }
-input:focus{
-    border: lightskyblue 5px solid;
+input:invalid {
+    border: none;
+    outline: 4px solid red;
+}
+input:focus:valid{
+    border: none;
+    outline: 3px solid lightblue;
 }
 #footer{
     background-color: lightgrey;
